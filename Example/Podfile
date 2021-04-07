@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RayHsuPod_Tests' do
+  pod 'RayHsuPod', :path => '../'
+  
+  
+end
