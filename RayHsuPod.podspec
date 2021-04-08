@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RayHsuPod'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of RayHsuPod.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ray_hsu@cmoney.com.tw/RayHsuPod'
+  s.homepage         = 'https://github.com/RayHsuCmoney/RayHsuPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ray_hsu@cmoney.com.tw' => 'ray_hsu@cmoney.com.tw' }
-  s.source           = { :git => 'https://github.com/ray_hsu@cmoney.com.tw/RayHsuPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RayHsuCmoney/RayHsuPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RayHsuPod/Classes/**/*'
+  s.source_files = 'RayHsuPod/Classes/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'RayHsuPod' => ['RayHsuPod/Assets/*.png']
